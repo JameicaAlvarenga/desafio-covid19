@@ -3,6 +3,15 @@ body{
 	font-family: sans-serif;
 }
 
+form{
+	font-size: 16px;
+	background-color: #CCC;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 0 10px 10px 10px;
+
+}
+
 h1{
     animation-name:mudacor;
     amimation-duration: 5s;
@@ -10,11 +19,34 @@ h1{
 }
 
 
-
-@keyframes mudacor {
-    from {color:red;}
-    to {color:yellow;}
+input, textarea{
+	width: 474px;
+	padding: 10px;
 }
+
+.enviar input {
+	background-color: #069;
+	height: 40px;
+	width: 150px;
+	font-weight: bold;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border: 1px solid;
+	color: #FFF;
+	cursor: pointer;
+}
+
+.enviar input:hover{
+	background: #078;
+}
+
+textarea {
+	width: 474px;
+	height: 120px;
+	line-height: 20px;
+}
+
 
 #cabecalho{
     --border: black 1px solid;
@@ -56,8 +88,7 @@ a{
     margin-left:10px;
     margin-right:10px;
     box-shadow: gray 2px 2px 3px;
-	margin-bottom:10px;
-	
+	margin-bottom:10px
 }
 
 #noticiasDestaque{
@@ -191,20 +222,3 @@ button{
     justify-content:left;
     --text-shadow:grey 1px 1px 5px
 }
-
-.sobre{
-    border: gray 1px solid;
-	border-radius: 10px;
-    margin-left:10px;
-    margin-right:10px;
-    box-shadow: gray 2px 2px 3px;
-	padding-left:20px;
-	margin-bottom:10px;
-   
-}
-#quemsou{
-    display: flex;
-    justify-content:space-between;
-}
-
-
