@@ -1,64 +1,121 @@
 <html>
 	<head>
 		<meta charset="utf-8"/>
-		<title> Noticias Covid-19 </title>
-		<link rel="stylesheet" href="estilonatal.css" />
+		<title>Notícias do COVID-19 </title>
+		<link rel="stylesheet" href="estilo.css"/>
 	</head>
 
 	<body>
 		<div id="conteudo">
 		<div id="cabecalho">
-			<h1>Noticias Covid-19</h1>
+			<h1> <img src="imagens/imagem_covid.png"/> Notícias do COVID-19</h1>
+	
 		</div>
 		<div id="navbar">
-			<div> <a href="index.html">Home </a></div>
-			<div> <a href="http://www.google.com"> Quem Somos </a></div>
-			<div> <a href="contato.html"> Contato </a></div>
-			<div> <a href="Fique.html">Fique por dentro</a></div>
+			<div> <a class="link" href="index.html">Home </a></div>
+			<div> <a class="link" href="sobre.html"> Sobre </a></div>
+			<div> <a class="link" href="contato.html"> Contato </a></div>
+			<div> <a class="link" href="saiba-mais.html">Saiba Mais</a></div>
 		</div>
-	<div id="imagemGeral">
-		<img src="imagens/logo.png"/>
+	
+	<div id="noticiasDestaque">
+		<h2>Notícias em Destaques </h2>
 	</div>
-	<div id="titulosDestaque">
-		<h2>Produtos em Destaques </h2>
-	</div>
-	<div id="produtos">
-		<div class="produtosDestaques">
-			<img class="imgDestaque" src="imagens/IshmaelBeah.jpg"/>
-			<h3>$20.00</h3>
-			<h3>Memórias de um menino soldado</h3>
-			<p class="descDestaque">Trezentas mil crianças-soldado, lavagem cerebral, entorpecentes, abusos dos senhores da guerra, morte.Muitas hoje ainda sofrem com as conseqüências. Fã de hip hop e de boa literatura, Ishmael Beah, após passar a infância e a adolescência na roda-viva da guerra, foi reabilitado pela Unicef e teve a chance de contar o que qualquer ficção jamais conseguiria recriar. Uma narrativa convincente, de linguagem bem acabada da visão do inferno, por quem esteve lá e conseguiu sair com vida. </p>
-		</div>
+	<div id="noticias">
+		<div class="destaques">
+		  <h4 id="titulo">Ministério da Saúde informa que há pelo menos 58 casos suspeitos de reinfecção</h4>
+		  <h6>Do UOL, em São Paulo 10/12/2020 20h35</h6>
+			<p class="descNoticia"> O Ministério da Saúde informou que há pelo menos 58 casos suspeitos de reinfecção por covid-19, 
+			e que estão sendo investigados em nove estados, no Brasil. 
+			A declaração ocorreu horas depois de o País confirmar a primeira paciente brasileira a ter reinfecção da doença confirmada em laboratório. 
+			"Até o momento, nós temos 58 casos suspeitos [de reinfecção] que foram notificados por secretarias estaduais de Saúde. 
+			Nestes casos, a pessoa teve a primeira infecção confirmada e o que precisa ser confirmada agora é se houve a reinfecção", 
+			explicou Greice Madeleine Ikeda do Carmo, diretora do Departamento de Articulação Estratégica de Vigilância em Saúde, 
+			durante coletiva de imprensa realiza..<a href="https://noticias.uol.com.br/saude/ultimas-noticias/redacao/2020/12/10/saude-diz-que-brasil-tem-58-casos-suspeitos-de-reinfeccao-por-covid-19.htm">Saiba mais</a></p>
+	    </div>
+		
+		<div class="destaques">
+		  <h4>Anvisa aprova regras para uso emergencial de vacinas contra Covid-19</h4>
+		   <h6>Por Mariana Garcia, G1 10/12/2020 12h37 </h6>
+			<p class="descNoticia"> A Diretoria Colegiada da Anvisa (Agência Nacional de Vigilância Sanitária) aprovou nesta quinta-feira (10) as regras para a autorização
+ 			temporária de uso emergencial, em caráter experimental, de vacinas contra a Covid-19. </b> </p>
 
-		<div class="produtosDestaques">
-			<img class="imgDestaque"  src="imagens/start.png">
-			<h3>$30.00</h3>
-			<h3>Start para o bem-estar</h3>
-			<p class="descDestaque">O termo que dá nome ao livro — START — nasceu de uma ideia gerada pela Dra. Denise Portugal —
-				Médica nas áreas de Endocrinologia Ortomolecular e Medicina Esportiva — após mais de 20 anos de experiência ajudando
-				milhares de pessoas a mudarem seus hábitos e adquirirem uma vida com mais saúde e bem-estar. Superação para vencer crenças e desafios </p>
+             <p class="descNoticia"> A decisão foi unânime entre os diretores da agência. No dia 2 de dezembro, a Anvisa já tinha definido os requisitos para o pedido de uso emergencial da vacina.
+ 			   <a href="https://g1.globo.com/bemestar/vacina/noticia/2020/12/10/anvisa-aprova-a-autorizacao-temporaria-de-uso-emergencial-de-vacinas-contra-covid-19.ghtml" >Saiba mais</a></p>  
+			<div id="audio"> 
+				<iframe src="https://audioglobo.globo.com/widget/widget.html?podcast=702&amp;audio=319854&amp;color=C4170C" width="648" height="253" 
+				frameborder="0" scrolling="no">
+				</iframe>
+			   
+			</div>	
+			
 		</div>
-		<div class="produtosDestaques">
-			<img class="imgDestaque"  src="imagens/liderservidor.png">
-			<h3>$15.00</h3>
-			<h3>Como se tornar um lider servidor</h3>
-			<p class="descDestaque">O novo livro de James C. Hunter, Como se tornar um líder servidor tem dois objetivos: o primeiro é compilar de maneira simples, concisa e clara os princípios da liderança servidora apresentados em seu livro anterior. O segundo é proporcionar um guia que facilite a aplicação desses princípios em sua vida e no trabalho. O autor acredita que liderar não é ser "chefe". Liderar é servir. Embora "servir" tenha uma conotação de fraqueza para alguns, a liderança servidora pode ter um impacto positivo em nosso desempenho como pais, treinadores, cônjuges, professores, pastores ou gerentes – afinal, todos querem se tornar os líderes que as pessoas precisam e merecem. Para Hunter, muitos têm consciência </p>
+		<div class="destaques">
+		  <h4>Butantan diz negociar exportação da CoronaVac para países da América Latina </h4>
+		   <h6>Lucas Borges Teixeira, Stella Borges e Allan Brito Do UOL, em São Paulo 10/12/2020 13h33		</h6>
+			<p class="descNoticia">O Instituto Butantan está negociando a possibilidade de exportar a CoronaVac, vacina contra a covid-19 produzida em parceria com o laboratório 
+			    chinês Sinovac, para países da América Latina. Dimas Covas, diretor da instituição, esteve na Argentina na semana passada.</p>
+			<p class="descNoticia">"Existem, sim, planos. Não apenas planos, mas inclusive negociações em curso. O Butantan, junto com a Sinovac, ofereceu ao Ministério da Saúde 
+			100 milhões de doses até maio. Ao mesmo tempo foram anunciados 40 milhões adicionais para toda a América Latina", afirmou Covas, em coletiva de imprensa no instituto 
+			nesta terça (10).<a href="https://noticias.uol.com.br/saude/ultimas-noticias/redacao/2020/12/10/butantan-negocia-com-paises-da-america-latina-para-exportar-coronavac.htm?cmpid=copiaecola">Saiba mais</a></p>  
+			
+			
 		</div>
+		<div class="destaques">
+		  <h4>Covid já matou mais de 180 mil no Brasil</h4>
+		   <h6>AFP 11/12/2020 20h18</h6>
+			<p class="descNoticia">O novo coronavírus já deixou mais de 180 mil mortos no Brasil, segundo dados divulgados nesta sexta-feira (11) pelo Ministério da Saúde, 
+			quase nove meses após a primeira morte no país, em março.</p>  
+			<div id="video"> 
+			 <iframe width="560" height="315" src="https://www.youtube.com/embed/YAbdcfKk02c" 
+					frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen>
+			 </iframe>
+			</div>	
+			
+		</div>
+		
+		<div class="destaques">
+		  <h4>O Assunto #330: Distanciamento, ainda o que mais salva</h4>
+		   <h6>Por Renata Lo Prete 23/11/2020 00h59</h6>
+			<p class="descNoticia">No momento em que o quadro se agrava e muitos se comportam como se a pandemia tivesse acabado, é urgente lembrar das práticas essenciais 
+			  de proteção contra o vírus, as únicas disponíveis enquanto a vacina não chega.<a href="https://g1.globo.com/podcast/o-assunto/noticia/2020/11/23/o-assunto-330-distanciamento-ainda-o-que-mais-salva.ghtml">Sai</a></p>
+			<div id="audio"> 
+				<iframe src="https://audioglobo.globo.com/widget/widget.html?podcast=702&amp;audio=323479&amp;color=C4170C" width="648" height="253" 
+					frameborder="0" scrolling="no">
+				</iframe>
+			</div>	
+		</div>
+		
+		<div class="destaques">
+		  <h4>Covid-19: EUA compram mais 100 milhões de doses da vacina da Moderna</h4>
+		   <h6>AFP 11/12/2020</h6>
+			<p class="descNoticia">O Departamento de Saúde dos Estados Unidos anunciou, nesta sexta-feira, a compra de 100 milhões de doses da vacina da Moderna contra a Covid-19. 
+			Com o acordo, agora são 200 milhões de doses compradas, o suficiente para imunizar 100 milhões de pessoas, 
+			já que a vacina é administrada em duas vezes.<a href="https://noticias.uol.com.br/videos/afp/2020/12/11/covid-19-eua-compram-mais-100-milhoes-de-doses-da-vacina-da-moderna.htm">Saiba mais</a></p>  
+			<div id="video"> 
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/hodtmP-uHvY" 
+					frameborder="0" 
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+					allowfullscreen>
+			</iframe>
+			   
+			</div>	
+			
+		</div>
+	</div>
+	
+
 	</div>
 		</div>
 	<div id="rodape">
 		<div id="redesSociais">
 
-			<h4>Nossos Contatos</h4>
-			<div class="rede"> <img src="imagens/whatszap.png"/>+55 11 9852-6369</div>
-			<div class="rede"> <img src="imagens/twitter.png"/> @minhalojinha</div>
-
-		</div>
-		<div id="e-mail">
-			<h4 id="receba">Receba nosas novidades</h4>
-			<input type="email" id="inputEmail" placeholder="Digite seu email"/>
-			<button>Enviar</button>
-		</div>
+			<h4>Me encontre nas redes sociais:
+			
+			   <a class="link" href="https://www.linkedin.com/in/jameicaalvarenga/"><img src="imagens/LinkedIn.jpg"/> 
+			   <a class="link" href="https://github.com/JameicaAlvarenga"><img src="imagens/logo_github.png"/> </a> </h4>
+		
 	 </div>
 	</body>
 </html>
